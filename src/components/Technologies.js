@@ -5,7 +5,7 @@ import javascript from "../static/javascript.png";
 import css from "../static/css.png";
 import html5 from "../static/html5.png";
 import sql from "../static/sql.png";
-import reactimg from "../static/react.png";
+//import reactimg from "../static/react.png";
 import {
   Timeline,
   TimelineConnector,
@@ -22,7 +22,7 @@ const Technologies = () => {
   const skills = [
     {
       year: "2021",
-      src: reactimg,
+      src: require('../static/react.png').default,
       title: "React",
       stars: 2,
     },
