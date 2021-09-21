@@ -5,7 +5,7 @@ import javascript from "../static/javascript.png";
 import css from "../static/css.png";
 import html5 from "../static/html5.png";
 import sql from "../static/sql.png";
-//import reactimg from "../static/react.png";
+import reactimg from "../static/react.png";
 import {
   Timeline,
   TimelineConnector,
@@ -19,10 +19,13 @@ import StarRating from "./StarRating";
 
 const Technologies = () => {
   const classes = useStyles();
+  console.log(sql)
+  console.log(python)
+  console.log(reactimg)
   const skills = [
     {
       year: "2021",
-      src: require('../static/react.png').default,
+      src: `./${reactimg}`,
       title: "React",
       stars: 2,
     },
