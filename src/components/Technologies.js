@@ -52,7 +52,7 @@ const Technologies = () => {
     },
     {
       year: "2020",
-      src: `./${python}`,
+      src: python,
       title: "Python",
       stars: 1,
     },
