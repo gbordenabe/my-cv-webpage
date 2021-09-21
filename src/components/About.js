@@ -8,7 +8,7 @@ import {
   makeStyles,
   Typography,
 } from "@material-ui/core";
-//import photo from "../static/photo.jpg";
+import photo from "../static/photo.jpg";
 import TypeWriterEffect from "react-typewriter-effect";
 import pdf from "../static/Bordenabe-Gabriel-CV.pdf";
 
@@ -21,7 +21,7 @@ const About = ({ title, dark, id }) => {
           {title}
         </Typography>
         <Card className={classes.card}>
-          <CardMedia image={ require('../static/photo.jpg').default} className={classes.media} title="picture" />
+          <CardMedia image={`./${photo}`} className={classes.media} title="picture" />
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
               text="Hi, I'm Gabriel Bordenabe."
@@ -53,7 +53,7 @@ const About = ({ title, dark, id }) => {
           </CardContent>
           <CardActions>
             <Button variant="contained" className={classes.pdfbutton}>
-              <a href={pdf} download>
+              <a href={`./${pdf}`} download>
                 Download CV
               </a>
             </Button>

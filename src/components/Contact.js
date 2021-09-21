@@ -52,7 +52,7 @@ const Contact = ({ title, dark, id }) => {
               <Typography variant="subtitle1">github.com/gbordenabe</Typography>
             </Link>
             <Button variant="contained" className={classes.pdfbutton}>
-              <a href={pdf} download>
+              <a href={`./${pdf}`} download>
                 Download CV
               </a>
             </Button>

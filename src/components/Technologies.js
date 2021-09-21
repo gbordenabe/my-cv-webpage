@@ -19,9 +19,6 @@ import StarRating from "./StarRating";
 
 const Technologies = () => {
   const classes = useStyles();
-  console.log(sql)
-  console.log(python)
-  console.log(reactimg)
   const skills = [
     {
       year: "2021",
@@ -31,37 +28,37 @@ const Technologies = () => {
     },
     {
       year: "2021",
-      src: sql,
+      src: `./${sql}`,
       title: "SQL",
       stars: 2,
     },
     {
       year: "2020",
-      src: javascript,
+      src: `./${javascript}`,
       title: "Javascript",
       stars: 3,
     },
     {
       year: "2020",
-      src: css,
+      src: `./${css}`,
       title: "CSS 3",
       stars: 2,
     },
     {
       year: "2020",
-      src: html5,
+      src: `./${html5}`,
       title: "HTML 5",
       stars: 2,
     },
     {
       year: "2020",
-      src: python,
+      src: `./${python}`,
       title: "Python",
       stars: 1,
     },
     {
       year: "2014",
-      src: csharp,
+      src: `./${csharp}`,
       title: "C#",
       stars: 3,
     },
