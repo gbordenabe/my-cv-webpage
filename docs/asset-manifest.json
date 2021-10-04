@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.54b8ac72.chunk.css",
-    "main.js": "./static/js/main.6b5879c0.chunk.js",
-    "main.js.map": "./static/js/main.6b5879c0.chunk.js.map",
+    "main.js": "./static/js/main.d1948423.chunk.js",
+    "main.js.map": "./static/js/main.d1948423.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.79a2696e.js",
     "runtime-main.js.map": "./static/js/runtime-main.79a2696e.js.map",
     "static/js/2.0f151058.chunk.js": "./static/js/2.0f151058.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/csharp.ed266566.png": "./static/media/csharp.ed266566.png",
     "static/media/css.1392da09.png": "./static/media/css.1392da09.png",
     "static/media/giffinder.dc7029cc.png": "./static/media/giffinder.dc7029cc.png",
+    "static/media/hkecommerce.c16df355.png": "./static/media/hkecommerce.c16df355.png",
     "static/media/html5.2c6a71b1.png": "./static/media/html5.2c6a71b1.png",
     "static/media/javascript.b307288d.png": "./static/media/javascript.b307288d.png",
     "static/media/photo.6b51e6b2.jpg": "./static/media/photo.6b51e6b2.jpg",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.79a2696e.js",
     "static/js/2.0f151058.chunk.js",
     "static/css/main.54b8ac72.chunk.css",
-    "static/js/main.6b5879c0.chunk.js"
+    "static/js/main.d1948423.chunk.js"
   ]
 }
