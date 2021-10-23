@@ -21,12 +21,12 @@ const Contact = ({ title, dark, id }) => {
         </Typography>
         <Paper className={classes.root}>
           <div className={classes.paper}>
-            <Typography variant="h5">Adress</Typography>
-            <Typography variant="subtitle1">Villarica 831</Typography>
+            <Typography variant="h5">Location</Typography>
+            <Typography variant="subtitle1">Córdoba, Argentina</Typography>
             <Typography variant="h5">Birth Day</Typography>
             <Typography variant="subtitle1">October 28, 1994</Typography>
             <Typography variant="h5">Number/Whatsapp</Typography>
-            <Typography variant="subtitle1">351 506 5552</Typography>
+            <Typography variant="subtitle1">(+54) 351 506 5552</Typography>
             <Typography variant="h5">Email</Typography>
             <Typography variant="subtitle1">
               gabrielbordenabe@gmail.com

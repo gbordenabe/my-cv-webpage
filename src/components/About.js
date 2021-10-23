@@ -39,7 +39,7 @@ const About = ({ title, dark, id }) => {
               typeSpeed={100}
             />
             <TypeWriterEffect
-              text="I will be full stack developer focused mainly on MERN."
+              text="and I am full stack developer junior on MERN."
               textStyle={{
                 fontSize: "1.2rem",
                 fontWeight: "700px",
@@ -48,11 +48,17 @@ const About = ({ title, dark, id }) => {
               cursorColor="black"
               typeSpeed={100}
             />
-            <Typography variant="h6" color="textSecondary">
-              I started my studies at FAMAF and then at IES Siglo XXI, but I am
-              currently studying Programming Technique at UTN. During the latter
-              I began my independent studies of React until I became interested
-              in MERN.
+            <Typography
+              variant="h6"
+              color="textSecondary"
+              className={classes.aboutme}
+            >
+              My field of studies is mainly focused on Full Stack Development
+              with MERN . I started my React JS studies in 2020, since then i
+              have developed many skills and got acquired technologies such as
+              Mongo DB, Express JS, Node JS, Firebase, Sass, Etc. I am
+              specialized in front end more than back end, but I will be
+              specialized in both.
             </Typography>
           </CardContent>
           <CardActions>
@@ -100,6 +106,11 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(3),
     "& h6": {
       marginTop: theme.spacing(6),
+    },
+  },
+  aboutme: {
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "13px",
     },
   },
   pdfbutton: {
