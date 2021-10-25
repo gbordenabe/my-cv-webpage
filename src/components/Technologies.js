@@ -74,7 +74,7 @@ const Technologies = () => {
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <img src={src} aly={title} className={classes.customlogo} />
+            <img src={src} alt={title} className={classes.customlogo} />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>

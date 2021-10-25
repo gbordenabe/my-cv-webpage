@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React /*, { useState } */ from "react";
 import { Link, makeStyles, Paper, Typography, Button } from "@material-ui/core";
 import pdf from "../static/Bordenabe-Gabriel-CV.pdf";
 
 const Contact = ({ title, dark, id }) => {
   const classes = useStyles();
-  const [value, setValue] = useState("hi");
+  //const [value, setValue] = useState("hi");
 
-  const handleChange = (e) => {
+  /*const handleChange = (e) => {
     setValue(e.target.value);
-  };
+  };*/
 
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>

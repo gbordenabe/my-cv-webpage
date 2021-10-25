@@ -11,7 +11,7 @@ import {
   Typography,
   ListItemIcon,
 } from "@material-ui/core";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link /*, animateScroll as scroll */ } from "react-scroll";
 import InfoTwoToneIcon from "@material-ui/icons/InfoTwoTone";
 import EmojiObjectsTwoToneIcon from "@material-ui/icons/EmojiObjectsTwoTone";
 import BuildTwoToneIcon from "@material-ui/icons/BuildTwoTone";
